@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Títulos-->
+    <string name="ajustes">Settings</string>
+    <string name="gente">People</string>
+    <string name="planes_creados">Events created by me</string>
+    <string name="planes_en">Events in</string>
+    <string name="publicar_plan">Post Event</string>
+    <string name="registrarse">Sign up</string>
+
+
+    <!-- - - - - - - - - -  -->
+
+    <string name="planes">Events</string>
+    <string name="hoy">Today</string>
+    <string name="prox_dias">Next days</string>
+    <string name="mis_amigos">My friends</string>
+    <string name="mis_planes">My Events</string>
+    <string name="explorar">Discover</string>
+    <string name="estoy_apuntado">I am going to go to...</string>
+    <string name="estas_viendo_planes">You are viewing events in</string>
+    <string name="hola">Hi</string>
+
+
+    <string name="usuario">User</string>
+    <string name="usuario_o_email">User</string>
+    <string name="contrasenya">Password</string>
+    <string name="entrar">Login</string>
+    <string name="no_eres_miembro">Are you not a member of Social Life? Sign up!</string>
+
+
+    <string name="titulo">Title</string>
+    <string name="localizacion">Location</string>
+    <string name="fecha">Date</string>
+    <string name="categoria">Category</string>
+    <string name="descripcion">Description</string>
+    <string name="publicar">To post</string>
+
+
+</resources>

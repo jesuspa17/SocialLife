@@ -1,0 +1,187 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_planes"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_gravity="center"
+    card_view:backgroundTint="@android:color/holo_blue_light"
+    android:layout_marginBottom="5dp"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/puente_triana"
+        android:id="@+id/imageViewFondoPlan"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:id="@+id/fondoPlan"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textViewTitulo"
+            android:layout_marginTop="15dp"
+            android:textSize="35dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:shadowRadius="10"
+            android:shadowDx="3"
+            android:shadowDy="7"
+            android:shadowColor="@color/black"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:gravity="bottom"
+            android:id="@+id/linearLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:layout_above="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:paddingBottom="5dp"
+                android:background="@drawable/fondo_plan"
+                android:id="@+id/linearFondoTransparente"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:id="@+id/textViewCategoria"
+                    android:textColor="@android:color/white"
+                    android:shadowRadius="10"
+                    android:shadowDx="3"
+                    android:shadowDy="7"
+                    android:shadowColor="@color/black"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="9dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/imageViewMarkerListPlan"
+                        android:src="@drawable/ic_marker"
+                        android:layout_marginLeft="3dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textViewUbicacion"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:shadowRadius="10"
+                        android:textSize="12.5dp"
+                        android:shadowDx="3"
+                        android:shadowDy="7"
+                        android:shadowColor="@color/black"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="9dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/imageViewCalendarListPlan"
+                        android:src="@drawable/ic_calendar"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="3dp"
+                        android:textSize="13dp"
+                        android:gravity="center"
+                        android:id="@+id/textViewFecha"
+                        android:textColor="@android:color/white"
+                        android:shadowRadius="10"
+                        android:shadowDx="3"
+                        android:shadowDy="7"
+                        android:shadowColor="@color/black"/>
+
+                    </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@android:color/white"
+                android:id="@+id/linear_inferior">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/logo"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/imageUserListaPlanes"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:gravity="left|center"
+                    android:textSize="13dp"
+                    android:id="@+id/textViewCreadoPor"
+                    android:layout_weight="1"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Asistirán   personas"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:id="@+id/textViewAsistentes"
+                    android:layout_weight="1"/>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,101 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AjustesFragment"
+    android:tag="ajustes">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|bottom">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Editar perfil"
+            android:id="@+id/textViewEditarPerfil"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/linea_final"
+            android:layout_below="@+id/textViewEditarPerfil"
+            android:layout_alignParentEnd="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutCambiarCiudad"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cambiar ciudad"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:id="@+id/textView14"
+                android:layout_below="@+id/linearLayoutCambiarCiudad"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textViewCiudadActual"
+                android:layout_below="@+id/textView14"
+                android:layout_alignStart="@+id/textView14"
+                android:textSize="16dp"
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linea_final"
+            android:paddingTop="20dp"
+            android:id="@+id/imageView3"
+            android:layout_below="@+id/textViewCerrarSesion"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cerrar sesión"
+            android:id="@+id/textViewCerrarSesion"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignStart="@+id/textViewEditarPerfil"
+            android:paddingTop="20dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linea_final"
+            android:paddingTop="20dp"
+            android:id="@+id/imageView5"
+            android:layout_alignBottom="@+id/linearLayoutCambiarCiudad"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</FrameLayout>

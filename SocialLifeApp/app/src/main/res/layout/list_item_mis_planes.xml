@@ -1,0 +1,150 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_gravity="center"
+    card_view:backgroundTint="@android:color/holo_blue_light"
+    android:layout_marginBottom="5dp"
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:id="@+id/fondoPlan">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/puente_triana"
+            android:id="@+id/imageViewFondoPlan"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birras"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textViewTitulo"
+            android:textSize="30dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:shadowRadius="10"
+            android:shadowDx="3"
+            android:shadowDy="7"
+            android:shadowColor="@color/black"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:gravity="bottom"
+            android:id="@+id/linearLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:layout_below="@+id/textViewTitulo">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:layout_above="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:paddingBottom="5dp"
+                android:background="@drawable/fondo_plan"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:text="Pasos"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:id="@+id/textViewCategoria"
+                    android:textColor="@android:color/white"
+                    android:shadowRadius="10"
+                    android:shadowDx="3"
+                    android:shadowDy="7"
+                    android:shadowColor="@color/black"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="9dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_marker"
+                        android:layout_marginLeft="3dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Puente de Triana (Capote)"
+                        android:id="@+id/textViewUbicacion"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:shadowRadius="10"
+                        android:textSize="12.5dp"
+                        android:shadowDx="3"
+                        android:shadowDy="7"
+                        android:shadowColor="@color/black"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="9dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_calendar"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Lunes 28 Abril, 2016 a las 16:00"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="3dp"
+                        android:textSize="13dp"
+                        android:gravity="center"
+                        android:id="@+id/textViewFecha"
+                        android:textColor="@android:color/white"
+                        android:shadowRadius="10"
+                        android:shadowDx="3"
+                        android:shadowDy="7"
+                        android:shadowColor="@color/black"/>
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

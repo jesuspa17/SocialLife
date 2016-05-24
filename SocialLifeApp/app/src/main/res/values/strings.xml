@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">SocialLifeApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+    <string name="title_activity_login">SociaLife!</string>
+    <string name="title_activity_detalles_plan">DetallesPlanActivity</string>
+    <string name="large_text">Este viernes cervezas en el Salvador
+    Este viernes cervezas en el Salvador
+    Este viernes cervezas en el Salvador
+    Este viernes cervezas en el SalvadorEste viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+        Este viernes cervezas en el Salvador
+
+    </string>
+    <string name="title_activity_perfil_user">PerfilUserActivity</string>
+
+
+    <!-- Títulos-->
+    <string name="ajustes">Ajustes</string>
+    <string name="gente">Gente</string>
+    <string name="planes_creados">Planes creados por mí</string>
+    <string name="planes_en">Planes en</string>
+    <string name="publicar_plan">Publicar Plan</string>
+    <string name="registrarse">Registrarse</string>
+
+    <!-- - - - - - - - - -  -->
+
+    <string name="planes">Planes</string>
+    <string name="hoy">Hoy</string>
+    <string name="prox_dias">Próx. Días</string>
+    <string name="mis_planes">Mis Planes</string>
+    <string name="mis_amigos">Mis amigos</string>
+    <string name="seguidos">Seguidos</string>
+    <string name="explorar">Explorar</string>
+    <string name="estoy_apuntado">Estoy apuntado a...</string>
+    <string name="estas_viendo_planes">Estas viendo planes en</string>
+    <string name="hola">Hola</string>
+
+
+    <string name="usuario">Usuario</string>
+    <string name="usuario_o_email">Usuario</string>
+    <string name="contrasenya">Contraseña</string>
+    <string name="entrar">Entrar</string>
+    <string name="no_eres_miembro">¿Todavía no eres miembro de Social Life? ¡Regístrate!</string>
+
+
+    <string name="titulo">Título</string>
+    <string name="localizacion">Localización</string>
+    <string name="fecha">Fecha</string>
+    <string name="categoria">Categoría</string>
+    <string name="descripcion">Descripción</string>
+    <string name="publicar">Publicar</string>
+
+</resources>

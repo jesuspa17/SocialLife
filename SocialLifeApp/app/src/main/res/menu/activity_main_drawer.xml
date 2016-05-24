@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/nav_planes"
+            android:icon="@mipmap/ic_ver_planes"
+            android:title="@string/planes" />
+        <item
+            android:id="@+id/nav_gente"
+            android:icon="@mipmap/ic_gente"
+            android:title="@string/gente" />
+
+
+        <group android:id="@+id/group2">
+            <item
+                android:id="@+id/nav_mis_planes"
+                android:icon="@mipmap/ic_mis_planes"
+                android:title="@string/mis_planes" />
+            <item
+                android:id="@+id/nav_mist_tickets"
+                android:icon="@mipmap/ic_planes"
+                android:title="@string/estoy_apuntado" />
+        </group>
+
+    <group android:id="@+id/group3">
+            <item
+                android:id="@+id/nav_ajustes"
+                android:icon="@mipmap/ic_ajustes"
+                android:title="@string/ajustes" />
+    </group>
+</menu>
